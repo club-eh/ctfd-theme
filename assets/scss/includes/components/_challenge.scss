@@ -18,3 +18,13 @@
   opacity: 0.6;
   border: none;
 }
+
+.challenge-primary-tag-easy {
+  background-color: var(--bs-green);
+}
+.challenge-primary-tag-medium {
+  background-color: var(--bs-cyan);
+}
+.challenge-primary-tag-hard {
+  background-color: var(--bs-orange);
+}

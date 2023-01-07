@@ -1,5 +1,9 @@
 @use "bootstrap/scss/bootstrap" as * with (
-  $info: #5c728f
+  $info: #3a994a,
+  $body-color: #f0f0f0,
+  $body-bg: #1a1a1a,
+  $modal-content-color: #f0f0f0,
+  $modal-content-bg: #1a1a1a,
 );
 
 @use "includes/components/table";

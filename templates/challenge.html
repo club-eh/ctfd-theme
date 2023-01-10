@@ -37,7 +37,9 @@
               <div class="challenge-tags text-center pt-2 pb-3">
                 {% block tags %}
                   {% for tag in tags %}
-                    <span class="challenge-tag badge bg-info">{{ tag }}</span>
+                    <span class="challenge-tag badge {% if loop.index == 1 %}challenge-primary-tag-{{challenge.tags[0].value.lower()}}{% else %}bg-info{% endif %}">
+                      {{ tag }}
+                    </span>
                   {% endfor %}
                 {% endblock %}
               </div>

@@ -14,6 +14,16 @@
   box-shadow: 0 0 5px 2px var(--challenge-difficulty-color);
 }
 
+.challenge-tags > .challenge-tag {
+  // use dark text for better contrast
+  color: black;
+
+  // apply primary tag color to that tag's badge
+  &:nth-child(1) {
+    background-color: var(--challenge-difficulty-color);
+  }
+}
+
 .challenge-solved {
   background-color: #225924 !important;
   opacity: 0.8;

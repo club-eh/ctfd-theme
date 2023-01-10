@@ -24,15 +24,19 @@ export default defineConfig({
               dest: "static/webfonts",
             },
             {
-              src: "./node_modules/@fontsource/lato/files/**/*400*-normal*",
+              src: "./node_modules/@fontsource/b612-mono/files/**/*400*-normal*",
               dest: "static/webfonts",
             },
             {
-              src: "./node_modules/@fontsource/lato/files/**/*700*-normal*",
+              src: "./node_modules/@fontsource/b612-mono/files/**/*700*-normal*",
               dest: "static/webfonts",
             },
             {
-              src: "./node_modules/@fontsource/raleway/files/**/*400*-normal*",
+              src: "./node_modules/@fontsource/b612/files/**/*400*-normal*",
+              dest: "static/webfonts",
+            },
+            {
+              src: "./node_modules/@fontsource/b612/files/**/*700*-normal*",
               dest: "static/webfonts",
             },
             {

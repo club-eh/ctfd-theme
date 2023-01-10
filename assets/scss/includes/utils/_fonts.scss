@@ -6,14 +6,15 @@
 // @import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 // @import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
-@use "~/@fontsource/lato/scss/mixins" as Lato;
-@use "~/@fontsource/raleway/scss/mixins" as Raleway;
+@use "~/@fontsource/b612/scss/mixins" as B612;
+@use "~/@fontsource/b612-mono/scss/mixins" as B612Mono;
 
 // Include both normal and bold weights
-@include Lato.fontFace($fontDir: "../webfonts", $weight: 400);
-@include Lato.fontFace($fontDir: "../webfonts", $weight: 700);
+@include B612Mono.fontFace($fontDir: "../webfonts", $weight: 400);
+@include B612Mono.fontFace($fontDir: "../webfonts", $weight: 700);
 
-@include Raleway.fontFace($fontDir: "../webfonts");
+@include B612.fontFace($fontDir: "../webfonts", $weight: 400);
+@include B612.fontFace($fontDir: "../webfonts", $weight: 700);
 
 $fa-font-path: "../webfonts";
 @import "~/@fortawesome/fontawesome-free/scss/fontawesome.scss";
@@ -25,10 +26,15 @@ $fa-font-path: "../webfonts";
 
 html,
 body,
+code,
 .container {
-  font-family: "Lato", sans-serif;
+  font-family: "B612 Mono", monospace;
 }
 
 .jumbotron .container {
-  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.challenge-desc, .challenge-hints {
+  font-family: "B612", sans-serif;
 }

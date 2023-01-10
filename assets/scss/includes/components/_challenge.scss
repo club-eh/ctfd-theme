@@ -12,6 +12,23 @@
 .challenge-button {
   // colored halo effect
   box-shadow: 0 0 5px 2px var(--challenge-difficulty-color);
+
+  // label
+  &::before {
+    content: var(--challenge-difficulty-label);
+
+    font-weight: 700;
+    font-size: 1rem;
+    font-variant: all-petite-caps;
+
+    position: absolute;
+    display: block;
+    left: 0.75rem;
+    bottom: 0.5rem;
+  }
+
+  // required for correct label positioning
+  position: relative;
 }
 
 .challenge-tags > .challenge-tag {
@@ -32,10 +49,13 @@
 
 .challenge-primary-tag-easy {
   --challenge-difficulty-color: #20c97a;
+  --challenge-difficulty-label: "Easy";
 }
 .challenge-primary-tag-medium {
   --challenge-difficulty-color: var(--bs-cyan);
+  --challenge-difficulty-label: "Medium";
 }
 .challenge-primary-tag-hard {
   --challenge-difficulty-color: var(--bs-orange);
+  --challenge-difficulty-label: "Hard";
 }

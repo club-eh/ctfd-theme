@@ -10,7 +10,8 @@
 }
 
 .challenge-button {
-  box-shadow: 3px 3px 3px var(--bs-secondary);
+  // colored halo effect
+  box-shadow: 0 0 5px 2px var(--challenge-difficulty-color);
 }
 
 .challenge-solved {
@@ -20,11 +21,11 @@
 }
 
 .challenge-primary-tag-easy {
-  background-color: var(--bs-green);
+  --challenge-difficulty-color: #20c97a;
 }
 .challenge-primary-tag-medium {
-  background-color: var(--bs-cyan);
+  --challenge-difficulty-color: var(--bs-cyan);
 }
 .challenge-primary-tag-hard {
-  background-color: var(--bs-orange);
+  --challenge-difficulty-color: var(--bs-orange);
 }

@@ -21,6 +21,14 @@
 @use "includes/icons/award-icons";
 @use "includes/icons/flag-icons";
 
+:root {
+  --theme-color: black;
+}
+
+.navbar {
+  background-color: var(--theme-color) !important;  // !important required to override bg-dark class
+}
+
 h1,
 h2 {
   font-weight: 500;

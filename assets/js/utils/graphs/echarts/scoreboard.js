@@ -87,6 +87,7 @@ export function getOption(mode, places) {
     const data = {
       name: places[teams[i]]["name"],
       type: "line",
+      symbol: "circle",
       label: {
         normal: {
           position: "top",

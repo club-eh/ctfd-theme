@@ -36,6 +36,26 @@ export function embed(target, option) {
   let chart = echarts.init(target);
   chart.setOption(option);
 
+  // fix colors + styling
+  chart.setOption({
+    darkMode: true,
+    title: {
+      textStyle: {
+        color: "#f0f0f0",
+      },
+    },
+    legend: {
+      inactiveColor: "#aaa",
+      textStyle: {
+        color: "#f0f0f0",
+      }
+    },
+    textStyle: {
+      color: "#f0f0f0",
+      fontFamily: "B612",
+    },
+  });
+
   window.addEventListener("resize", () => {
     if (chart) {
       chart.resize();

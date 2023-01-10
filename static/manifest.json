@@ -38,13 +38,13 @@
     ]
   },
   "assets/js/scoreboard.js": {
-    "file": "assets/scoreboard.83d2a4f3.js",
+    "file": "assets/scoreboard.20ba46d9.js",
     "src": "assets/js/scoreboard.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_index.997c7d81.js",
-      "_echarts.128204f2.js"
+      "_index.a62d8e6d.js",
+      "_echarts.1e4af77e.js"
     ]
   },
   "assets/js/notifications.js": {
@@ -56,26 +56,26 @@
     ]
   },
   "assets/js/teams/public.js": {
-    "file": "assets/teams_public.72979946.js",
+    "file": "assets/teams_public.5500d875.js",
     "src": "assets/js/teams/public.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_userscore.70b5b5d9.js",
-      "_index.997c7d81.js",
-      "_echarts.128204f2.js"
+      "_userscore.3771d00d.js",
+      "_index.a62d8e6d.js",
+      "_echarts.1e4af77e.js"
     ]
   },
   "assets/js/teams/private.js": {
-    "file": "assets/teams_private.37c6e530.js",
+    "file": "assets/teams_private.176facc2.js",
     "src": "assets/js/teams/private.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
       "_clipboard.0e674ed0.js",
-      "_userscore.70b5b5d9.js",
-      "_index.997c7d81.js",
-      "_echarts.128204f2.js"
+      "_userscore.3771d00d.js",
+      "_index.a62d8e6d.js",
+      "_echarts.1e4af77e.js"
     ]
   },
   "assets/js/teams/list.js": {
@@ -87,25 +87,25 @@
     ]
   },
   "assets/js/users/public.js": {
-    "file": "assets/users_public.0332e317.js",
+    "file": "assets/users_public.12e5e039.js",
     "src": "assets/js/users/public.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_userscore.70b5b5d9.js",
-      "_index.997c7d81.js",
-      "_echarts.128204f2.js"
+      "_userscore.3771d00d.js",
+      "_index.a62d8e6d.js",
+      "_echarts.1e4af77e.js"
     ]
   },
   "assets/js/users/private.js": {
-    "file": "assets/users_private.9d31b7f3.js",
+    "file": "assets/users_private.1c635b81.js",
     "src": "assets/js/users/private.js",
     "isEntry": true,
     "imports": [
       "assets/js/index.js",
-      "_userscore.70b5b5d9.js",
-      "_index.997c7d81.js",
-      "_echarts.128204f2.js"
+      "_userscore.3771d00d.js",
+      "_index.a62d8e6d.js",
+      "_echarts.1e4af77e.js"
     ]
   },
   "assets/js/users/list.js": {
@@ -116,8 +116,8 @@
       "assets/js/index.js"
     ]
   },
-  "_echarts.128204f2.js": {
-    "file": "assets/echarts.128204f2.js"
+  "_echarts.1e4af77e.js": {
+    "file": "assets/echarts.1e4af77e.js"
   },
   "_clipboard.0e674ed0.js": {
     "file": "assets/clipboard.0e674ed0.js",
@@ -125,18 +125,18 @@
       "assets/js/index.js"
     ]
   },
-  "_index.997c7d81.js": {
-    "file": "assets/index.997c7d81.js",
+  "_index.a62d8e6d.js": {
+    "file": "assets/index.a62d8e6d.js",
     "imports": [
       "assets/js/index.js",
-      "_echarts.128204f2.js"
+      "_echarts.1e4af77e.js"
     ]
   },
-  "_userscore.70b5b5d9.js": {
-    "file": "assets/userscore.70b5b5d9.js",
+  "_userscore.3771d00d.js": {
+    "file": "assets/userscore.3771d00d.js",
     "imports": [
       "assets/js/index.js",
-      "_index.997c7d81.js"
+      "_index.a62d8e6d.js"
     ]
   },
   "assets/scss/main.scss": {

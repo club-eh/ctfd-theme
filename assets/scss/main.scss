@@ -4,6 +4,7 @@
   $body-bg: #1a1a1a,
   $modal-content-color: #f0f0f0,
   $modal-content-bg: #1a1a1a,
+  $nav-tabs-link-active-color: var(--bs-gray-400),
 );
 
 @use "includes/components/table";
@@ -36,7 +37,7 @@ h2 {
 }
 
 a {
-  color: #337ab7;
+  color: #3787cc;
   text-decoration: none !important;
 }
 

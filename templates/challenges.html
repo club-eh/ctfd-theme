@@ -48,6 +48,7 @@
                         :class="( c.solved_by_me ? 'challenge-solved' : '' ) + ' challenge-primary-tag-' + c.tags[0].value.toLowerCase()"
                         :value="c.id" @click="loadChallenge(c.id)"
                     >
+                      <span class="challenge-primary-tag-label" x-text="c.tags[0].value"></span>
 
                       <div class="challenge-inner my-3">
                         <p x-text="c.name"></p>

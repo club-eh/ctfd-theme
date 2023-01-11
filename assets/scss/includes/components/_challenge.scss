@@ -13,10 +13,8 @@
   // colored halo effect
   box-shadow: 0 0 5px 2px var(--challenge-difficulty-color);
 
-  // label
-  &::before {
-    content: var(--challenge-difficulty-label);
-
+  // difficulty label
+  .challenge-primary-tag-label {
     font-weight: 700;
     font-size: 1rem;
     font-variant: all-petite-caps;
@@ -49,13 +47,10 @@
 
 .challenge-primary-tag-easy {
   --challenge-difficulty-color: #20c97a;
-  --challenge-difficulty-label: "Easy";
 }
 .challenge-primary-tag-medium {
   --challenge-difficulty-color: var(--bs-cyan);
-  --challenge-difficulty-label: "Medium";
 }
 .challenge-primary-tag-hard {
   --challenge-difficulty-color: var(--bs-orange);
-  --challenge-difficulty-label: "Hard";
 }
